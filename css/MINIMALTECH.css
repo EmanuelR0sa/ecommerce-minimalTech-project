@@ -1,0 +1,371 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    border: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    padding: 0px;
+}
+
+
+.logobox {
+    padding-left: 10px;
+}
+
+.page-header {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.80);
+    height: 100px;
+    padding: 10px;
+}
+
+.header-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-iconsbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-info a {
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+}
+
+
+.nav-info a:hover {
+    color: rgb(255, 230, 0);
+}
+
+#home {
+    padding-right: 20px;
+}
+
+#shop {
+    padding-right: 20px;
+}
+
+.iconsbox {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#accountp {
+    padding-left: 5px;
+    padding-right: 2px;
+}
+
+#basketp2 {
+    padding-left: 2px;
+    padding-right: 0px;
+}
+
+.vrVideo {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.page-main {
+    flex-grow: 11;
+    flex-basis: 100%;
+    align-items: center;
+    margin: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+
+
+.content-box1 {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+#Text-Minimal-title {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+#Text-Minimal-content {
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.content-box2 {
+    height: 400px;
+    max-width: 350px;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 25px;
+    border-radius: 20px;
+    z-index: 1;
+    align-items: center;
+    margin: 10px;
+    border: 1px solid rgba(85, 85, 85, 0.3);
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+}
+
+
+#laptop-title {
+    color: #FFE600;
+    font-size: 17px;
+    text-align: left;
+}
+
+#laptop-text {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+#ShopHere {
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin-bottom: 30px;
+    border: none;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+#ShopHere:hover {
+    background-color: #FFE600;
+}
+
+.page-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.80);
+    border: 0px;
+    padding: 10px;
+}
+
+.footer-logo-copyrights {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 10px;
+}
+
+#copyrights,
+#us,
+#contact,
+#email,
+#call {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 400px;
+}
+
+.follow-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+#email,
+#call {
+    margin: 0px;
+}
+
+/* PAGE ABOUT */
+
+.containerAbout {
+    height: 100vh;
+    width: 100vw;
+    padding: 0px;
+    background-image: url(../img/pexels02.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.page-main-about {
+    display: flex;
+    align-items: center;
+}
+
+
+.contentAbout-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 60px;
+    margin-right: 700px;
+    margin-top: 154px;
+    margin-bottom: 154px;
+}
+
+
+.contentAbout-box {
+    color: rgb(255, 255, 255);
+}
+
+.contentAbout-box>#Text-Minimal-title-About {
+    font-size: 60px;
+}
+
+.contentAbout-box>#Text-Minimal-content-About {
+    font-size: 17px;
+}
+
+
+/* PAGE SHOP .............................................................*/
+.containerShop {
+    height: 100vh;
+    width: 100vw;
+    padding: 0px;
+    background-image: url(../img/pexels-gradienta.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.page-main-shop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    padding-top: 196px;
+    padding-bottom: 197px;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+}
+
+.shop-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.growable {
+    height: 100px;
+}
+
+
+.growable:hover {
+    transition: 0.2s;
+    height: 105px;
+}
+
+
+/* PAGE CART ............................................................. */
+
+.cartBodyContainer {background-color: rgb(0, 0, 0); }
+
+#cart-Title {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#table-Box {
+    /*border-collapse: collapse;*/
+    width: 80%;
+    text-align: center;
+    margin-left: 100px;
+    border-radius: 20px;
+    background-color: rgb(47, 46, 46);;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    color: white;
+    
+}
+
+#table-Head {
+    background-color: silver;
+    
+}
+
+
+#text-Product-Total {
+    border-top: 1px solid rgb(143, 143, 143);
+    text-align: end;
+}
+
+#table-Row-Total {
+    width: 100%;
+    color: #FFE600;
+    font-size: 24px;
+}
+
+
+#cartSpan {
+    background-color: #FFE600;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+tr>td>img{ width: 100px;}
+#text-Product-Name{ display: flex;
+justify-content: center;
+align-items: center;}

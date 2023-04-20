@@ -31,7 +31,7 @@
                 <p id="laptop-title"> XPS 13 Plus Laptop</p>
                 <img id="xps13" height=200px src="./img/DELLXPS1302.png " alt="xps13">
                 <p id="laptop-text"> The Speed of Creativity</p>
-                <a href="Laptop.php"><button type="button" class="buttonIcon" id="ShopHere"> Buy Now</button></a>
+                <a href="Shop.php"><button type="button" class="buttonIcon" id="ShopHere"> Buy Now</button></a>
             </div>
         </div>
 
